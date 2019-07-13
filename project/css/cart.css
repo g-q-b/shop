@@ -1,0 +1,70 @@
+table thead {
+  background: #43cbb3; }
+  table thead tr.tr1 {
+    border: 2px solid #43cbb3;
+    color: aliceblue; }
+    table thead tr.tr1 td {
+      font: 800 14px/30px "";
+      text-align: center; }
+    table thead tr.tr1 td.td0 {
+      width: 100px; }
+    table thead tr.tr1 td.td1 {
+      width: 100px; }
+    table thead tr.tr1 td.td4 {
+      width: 100px; }
+
+table tbody tr {
+  width: 1200px;
+  border: 2px solid #43cbb3; }
+  table tbody tr td.d0 {
+    text-align: center; }
+    table tbody tr td.d0 #chk2 {
+      width: 20px;
+      height: 20px; }
+  table tbody tr td.d1 img {
+    width: 200px;
+    height: 100px;
+    padding: 10px; }
+  table tbody tr td.d2 {
+    text-align: center;
+    font-size: 18px;
+    color: #066;
+    font-weight: 800; }
+  table tbody tr td.d3 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 900;
+    color: orangered; }
+  table tbody tr td.d4 {
+    width: 200px;
+    text-align: center; }
+    table tbody tr td.d4 input.changeNum {
+      width: 80px;
+      border: 0;
+      border-radius: 4px;
+      text-align: center;
+      border: 1px solid gainsboro;
+      padding: 5px 10px 5px; }
+  table tbody tr td.del {
+    text-align: center;
+    font-weight: 900;
+    color: orangered;
+    font-size: 16px; }
+  table tbody tr td.d5 {
+    text-align: center;
+    font-weight: 900;
+    font-size: 16px; }
+
+input#btn2 {
+  border: 0;
+  padding: 5px 10px;
+  background: #43cbb3;
+  color: aliceblue;
+  border-radius: 4px;
+  margin: 10px 0 0 1270px; }
+  input#btn2:hover {
+    transform: scale(1.2); }
+
+#emp {
+  width: 100%;
+  text-align: center; }

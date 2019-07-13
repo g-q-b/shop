@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="css/public.css">
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+
+    <div id="top">
+        <div class="margin">
+            <div class="top-left">
+                <span>欢迎来到go家居!</span>&nbsp
+                <a href="http://localhost:8181/project/Login.html" class="denglu">登录</a> | 
+                <a href="http://localhost:8181/project/resiger.html">注册</a>
+            </div>
+            <div class="top-right">
+                <ul>
+                    <li><a href="http://localhost:8181/project/index.html">网站首页</a></li>
+                    <li><a href="#">个人中心</a></li>
+                    <li class="active"><a href="http://localhost:8181/html/cart.html"><em><img src="../img/1.png"/></em> 购物车</a></li>
+                    <li><a href="#">客户服务</a></li>
+                    <li><a href="#">微信</a></li>
+                    <li><a href="#">微博</a></li>
+                    <li><a href="#">手机站</a></li>
+                </ul>
+            </div>
+        </div>	
+    </div>
+    
+    <div id="nav">
+        <div class="margin">
+            <div class="top">
+                <div class="top-left">
+                    <img src="../img/2.png"/>
+                    <p>全国站</p><br />
+                    <span>切换城市</span>
+                </div>
+                <div class="top-right">
+                    <ul>
+                        <li><a href="#">品牌</a></li>
+                        <li><a href="#">产品</a></li>
+                        <li><a href="#">商城</a></li>
+                        <li><a href="#">店铺</a></li>
+                        <li><a href="#">全景</a></li>
+                    </ul>
+                    <div class="srh">
+                        <div class="txtx">
+                            <input type="text" id="txt" value="请输入关键字"/>
+                        </div>|
+                        <input type="button" id="btn" value="搜索"/>
+                    </div>
+                </div>
+            </div>
+            <div class="bottom">
+                <span>全部产品分类</span>
+                <ul>
+                    <li>首页</li>
+                    <li>活动</li>
+                    <li>优惠卷</li>
+                    <li>咨询</li>
+                    <li>品牌</li>
+                    <li>商城</li>
+                    <li>产品</li>
+                    <li>全景</li>
+                    <li>加盟</li>
+                    <li>佳居金融</li>
+                </ul>
+            </div>
+        </div>	
+    </div>
+
+    <table border="1" cellspacing="0" width="1200" align="center">
+        <thead class="tab1">
+            <tr class="tr1">
+                <td class="td0"><input type="checkbox" id="chk1"> 全选</td>
+                <td class="td1">商品</td>
+                <td class="td2">名称</td>
+                <td class="td3">价格（￥）</td>
+                <td class="td4">数量</td>
+                <td class="td5">删除</td>
+                <td class="td6">总计</td>
+            </tr>
+        </thead>
+        <tbody class="tab2">
+            <!--<tr>
+                <td>图片</td>
+                <td>名字</td>
+                <td>价格</td>
+                <td>数量</td>
+                <td>操作</td>
+            </tr>-->
+        </tbody>
+    </table>
+    <input type="button" id="btn2" value="付款"/>
+    
+    <div id="emp">
+        <img src="../img/u=2388971468,568148956&fm=26&gp=0 (1).jpg"/>
+    </div>
+
+</body>
+<script src="../project/js/cart/ajaxALL.js"></script>
+<script src="../project/js/cart/cart.js"></script>
+<script src="../project/js/cart/cookie.js"></script>
+
+</html>
